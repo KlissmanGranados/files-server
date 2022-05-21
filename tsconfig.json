@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "moduleResolution": "node",
+        "declaration": false,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "noLib": false,
+        "allowJs": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "baseUrl": "./src",
+        "removeComments": true,
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

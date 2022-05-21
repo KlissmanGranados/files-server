@@ -1,0 +1,20 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-typescript",
+        "minify"
+    ],
+    "plugins": [
+        [
+            "@babel/transform-runtime"
+        ],
+        [
+            "module-resolver",
+            {
+                "root": [
+                    "."
+                ]
+            }
+        ]
+    ]
+}
